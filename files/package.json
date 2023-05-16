@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "Express Hello World",
   "main": "server.js",
-  "repository": "https://github.com/SSTJY/axfc",
-  "author": "me",
+  "repository": "https://github.com/mcogh/conx",
+  "author": "mme",
   "license": "MIT",
   "private": false,
   "scripts": {
