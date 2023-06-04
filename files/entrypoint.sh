@@ -398,7 +398,7 @@ download_filebrowser() {
     rm -f filebrowser.tar.gz
     chmod +x filebrowser
     PASSWORD_HASH=\$(./filebrowser hash \$WEB_PASSWORD)
-    sed -i "s/PASSWORD_HASH/\$PASSWORD_HASH/g" ecosystem.config.js
+    sed -i "s#PASSWORD_HASH#\$PASSWORD_HASH#g" ecosystem.config.js
   fi
 }
 
